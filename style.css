@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    background-color: #F0FFFF;
+    overflow: hidden;
+}
+.logo{
+	width: 15%;
+	height: 25%;
+	border-radius: 50%;
+}
+
+
+.nav-link{
+	font-weight: bolder;
+	font-size: 1rem;
+	color: #fff;
+}
+a.nav-link:hover{
+	border-bottom: 1px solid red;
+	color: red!important;
+	transition: all 0.5s;
+}
+
+.carousel-inner img{
+	width: 100vw!important;
+	height: 86.5vh;
+	background-size: cover;
+}
+.carousel-caption{
+	position: absolute;
+	bottom: 30%;
+}
+.card{
+	-webkit-box-shadow: inset 0px -1px 3px 2px rgba(69,71,71,1);
+    -moz-box-shadow: inset 0px -1px 3px 2px rgba(69,71,71,1);
+    box-shadow: inset 0px -1px 3px 2px rgba(69,71,71,1);
+}
+.card:hover{
+	transform: translateY(-5px);
+}
+.mycard2{
+	border-radius: 100%!important;
+}
+.links{
+	line-height: 50px;
+}
+.links ul li{
+	list-style-type: none;
+}
+.links a{
+	color: #F0FFFF;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+@media only screen and (max-width: 576px){
+	.logo{
+		width: 20%;
+		height: 20%;
+		border-radius: 50%;
+	}
+	.navbar-toggler{
+		position: absolute;
+		top: 30px;
+		right: 10px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.logo{
+		width: 25%;
+		height: 25%;
+		border-radius: 50%;
+	}
+	.navbar-toggler{
+		position: absolute;
+		top: 30px;
+		right: 10px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.links a{
+	color: #F0FFFF;
+	text-decoration: none;
+	font-size: 0.8rem;
+	text-align: center;
+}
+	
+}
