@@ -5,6 +5,7 @@ body{
     font-family: helvetica;
     background-color: #F0FFFF;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 .logo{
 	width: 15%;
